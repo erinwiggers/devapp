@@ -1,0 +1,40 @@
+{
+    "username": "social@lyntonweb.com",
+    "authkey": "u0856709d93976a5",
+    "password": "LWLitmus!",
+    "apis": [
+        {
+            "screenshot": "app.crossbrowsertesting.com/screenshots/",
+            "comparison": "app.crossbrowsertesting.com/comparisons/",
+            "livetests": "app.crossbrowsertesting.com/livetests/",
+            "sheets": "sheets.googleapis.com/$discovery/rest?version=v4"
+        }
+    ],
+    "baseURLs": [
+        {
+            "screenshot": "https://app.crossbrowsertesting.com/screenshots/",
+            "comparison": "app.crossbrowsertesting.com/comparisons/",
+            "livetests": "app.crossbrowsertesting.com/livetests/",
+            "sheets": "sheets.googleapis.com/$discovery/rest?version=v4"
+        }
+    ],
+    "optionQueries": [
+        {
+            "screenshot": "&delay=3&hide_fixed_elements=true&check_url=true&send_email=false"
+        }
+    ],
+    "resultQueries": [
+        {
+            "screenshot": "?size=large&type=fullpage",
+            "comparisons": "",
+            "livetests": ""
+        }
+    ],
+    "options": {
+        "browser_list": "lw_custom"
+    },
+    "pages": {
+        "home": "http://www.lyntonweb.com",
+        "resources": "http://www.lyntonweb.com/resources"
+    }
+}
